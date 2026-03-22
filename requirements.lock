@@ -10,13 +10,13 @@
 
 # ---------------------------------------------------------------------------
 # gRPC stack — pinned together to eliminate resolver backtracking
-# grpcio>=1.66.0 + grpcio-tools>=1.66.0 + setuptools (loose in requirements.txt)
+# grpcio==1.66.1 + grpcio-tools==1.64.1 (pre-built wheels) + protobuf<5 compatible
 # ---------------------------------------------------------------------------
 grpcio==1.66.1
-grpcio-tools==1.66.1
+grpcio-tools==1.64.1
 googleapis-common-protos==1.63.2
 grpcio-status==1.66.1
-protobuf==5.27.2
+protobuf==4.25.3
 setuptools==75.1.0
 
 # ---------------------------------------------------------------------------
