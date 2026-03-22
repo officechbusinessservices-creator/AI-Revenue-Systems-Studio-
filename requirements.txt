@@ -76,7 +76,7 @@ qdrant-client==1.9.1
 # ---------------------------------------------------------------------------
 anthropic==0.28.0
 openai==1.35.7
-google-generativeai==0.7.2
+google-generativeai==0.8.0
 
 # ---------------------------------------------------------------------------
 # Embeddings — local sentence-transformers (optional, for Qdrant indexing)
