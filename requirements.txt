@@ -14,8 +14,7 @@
 # Local dev install (resolves from scratch, slower):
 #   pip install -r requirements.txt
 # =============================================================================
-grpcio==1.66.1
-grpcio-tools==1.66.1
+grpcio==1.64.1
 grpcio-tools==1.64.1
 setuptools==75.1.0
 # ---------------------------------------------------------------------------
@@ -77,7 +76,7 @@ qdrant-client==1.9.1
 # ---------------------------------------------------------------------------
 anthropic==0.28.0
 openai==1.35.7
-google-generativeai==0.7.2
+google-generativeai==0.8.0
 
 # ---------------------------------------------------------------------------
 # Embeddings — local sentence-transformers (optional, for Qdrant indexing)
